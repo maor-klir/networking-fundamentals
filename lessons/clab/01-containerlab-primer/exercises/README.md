@@ -323,13 +323,13 @@ pytest tests/ -v
 
 ## Completion Checklist
 
-- [ ] Exercise 1: Deployed and explored the two-node lab
-- [ ] Exercise 2: Created and deployed three-node topology
-- [ ] Exercise 3: Generated topology graph and JSON output
-- [ ] Exercise 4: Found documentation and community resources
-- [ ] Exercise 5: Created mixed network/Linux topology
-- [ ] Exercise 6: Diagnosed and fixed a stopped container
-- [ ] Exercise 7: Diagnosed and fixed a missing link
+- [x] Exercise 1: Deployed and explored the two-node lab
+- [x] Exercise 2: Created and deployed three-node topology
+- [x] Exercise 3: Generated topology graph and JSON output
+- [x] Exercise 4: Found documentation and community resources
+- [x] Exercise 5: Created mixed network/Linux topology
+- [x] Exercise 6: Diagnosed and fixed a stopped container
+- [x] Exercise 7: Diagnosed and fixed a missing link
 
 ## Next Steps
 
