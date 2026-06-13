@@ -352,12 +352,12 @@ pytest tests/ -v
 
 ## Completion Checklist
 
-- [ ] Exercise 1: Deployed lab, applied Ansible config, verified end-to-end connectivity
-- [ ] Exercise 2: Read routing tables, traced packet path hop by hop
-- [ ] Exercise 3: Diagnosed and fixed missing route (return path analysis)
-- [ ] Exercise 4: Diagnosed and fixed wrong next-hop (black hole)
-- [ ] Exercise 5: Diagnosed and fixed routing loop (TTL)
-- [ ] Exercise 6: Diagnosed and fixed unreachable next-hop (link down)
+- [x] Exercise 1: Deployed lab, applied Ansible config, verified end-to-end connectivity
+- [x] Exercise 2: Read routing tables, traced packet path hop by hop
+- [x] Exercise 3: Diagnosed and fixed missing route (return path analysis)
+- [x] Exercise 4: Diagnosed and fixed wrong next-hop (black hole)
+- [x] Exercise 5: Diagnosed and fixed routing loop (TTL)
+- [x] Exercise 6: Diagnosed and fixed unreachable next-hop (link down)
 
 ## Next Steps
 
