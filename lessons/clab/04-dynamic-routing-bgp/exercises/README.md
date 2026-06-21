@@ -408,12 +408,12 @@ pytest tests/ -v
 
 ## Completion Checklist
 
-- [ ] Exercise 1: Deployed lab, verified broken state, configured eBGP, compared routing tables
-- [ ] Exercise 2: Enabled direct link, observed AS path selection via traceroute
-- [ ] Exercise 3: Diagnosed and fixed missing export policy (sent-routes=0)
-- [ ] Exercise 4: Observed link failure with automatic reroute (BGP convergence)
-- [ ] Exercise 5: Diagnosed and fixed wrong ASN (peer-as mismatch)
-- [ ] Exercise 6: Diagnosed stale static route masking BGP (administrative distance)
+- [x] Exercise 1: Deployed lab, verified broken state, configured eBGP, compared routing tables
+- [x] Exercise 2: Enabled direct link, observed AS path selection via traceroute
+- [x] Exercise 3: Diagnosed and fixed missing export policy (sent-routes=0)
+- [x] Exercise 4: Observed link failure with automatic reroute (BGP convergence)
+- [x] Exercise 5: Diagnosed and fixed wrong ASN (peer-as mismatch)
+- [x] Exercise 6: Diagnosed stale static route masking BGP (administrative distance)
 
 ## Next Steps
 
