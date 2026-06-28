@@ -277,10 +277,10 @@ pytest tests/ -v
 
 ## Completion Checklist
 
-- [ ] Exercise 1: Deployed fabric, configured eBGP on all 6 routers, verified cross-leaf connectivity
-- [ ] Exercise 2: Read routing tables, observed ECMP paths, ran traceroutes
-- [ ] Exercise 3: Simulated spine failure, observed resilience and ECMP path reduction
-- [ ] Exercise 4: Diagnosed and fixed route leak (longest-prefix-match hijack)
+- [x] Exercise 1: Deployed fabric, configured eBGP on all 6 routers, verified cross-leaf connectivity
+- [x] Exercise 2: Read routing tables, observed ECMP paths, ran traceroutes
+- [x] Exercise 3: Simulated spine failure, observed resilience and ECMP path reduction
+- [x] Exercise 4: Diagnosed and fixed route leak (longest-prefix-match hijack)
 
 ## Next Steps
 
