@@ -190,13 +190,12 @@ enter candidate
 set / routing-policy prefix-set hijack prefix 10.20.4.0/25 mask-length-range exact
 set / routing-policy policy export-hijack statement 10 match prefix-set hijack
 set / routing-policy policy export-hijack statement 10 action policy-result accept
-set / routing-policy policy export-hijack statement 20 match protocol local
-set / routing-policy policy export-hijack statement 20 action policy-result accept
+set / routing-policy policy export-hijack statement 10 match protocol static
 set / routing-policy policy export-hijack default-action policy-result reject
 set / network-instance default protocols bgp group spines export-policy [export-hijack]
 set / network-instance default static-routes route 10.20.4.0/25 admin-state enable
 set / network-instance default next-hop-groups group nhg-blackhole admin-state enable
-set / network-instance default next-hop-groups group nhg-blackhole nexthop 1 ip-address 192.0.2.1
+set / network-instance default next-hop-groups group nhg-blackhole blackhole
 set / network-instance default static-routes route 10.20.4.0/25 next-hop-group nhg-blackhole
 commit now
 exit
